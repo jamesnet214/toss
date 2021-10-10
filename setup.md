@@ -22,9 +22,10 @@
 > Windows 11 작성 후 맥도 만들어보겠습니다.
 
 ## Windows 11 (셋업 순서)
-- Windows 업데이트
-- Google Chrome
+- Windows 업데이트(#1-windows-업데이트)
+- [Google Chrome](#2-google-chrome-설치)
 - [Git](#3-git-설치)
+- [Git Clone](#4-git-clone)
 - Zoom
 - 메신저
 
