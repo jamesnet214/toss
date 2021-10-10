@@ -36,3 +36,5 @@
 
 
 ### 2. Google Chrome 설치
+구글 크롬 공식홈페이지를 통해 다운로드 받습니다. [다운로드](https://www.google.com/intl/ko/chrome/)
+> 여담으로 윈도우용 인스톨러는 **ClickOnce**라는 것을 알고계신가요?
