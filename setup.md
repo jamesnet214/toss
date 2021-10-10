@@ -72,5 +72,7 @@
 ![image](https://user-images.githubusercontent.com/52397976/136694120-585eb5d2-ce1b-4aa3-88b4-999af0501253.png)
 
 **Git은 오픈소스라는 것을 알고 계셨나요?**  
-재미있는 사실은 Git은 GitHub에 공개되어 있는 오픈소스 중 것입니다.  
-또 공개적인 오픈소스로써 지금까지도 지속적으로 발전중이라는 사실을요.
+재미있는 사실은 Git은 GitHub에 공개되어 있는 대표적인 오픈소스 중 하나입니다.  
+
+그리고 지금까지도 약 1,400여 명의 **Contributors(기여자)** 를 통해 계속해서 발전중입니다.  
+[방문하기](https://github.com/git/git)  
