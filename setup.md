@@ -20,6 +20,9 @@
 - [Git](#3-git-설치)
 - [메신저/원격](#4-메신저/원격 설치)
 - [Git Clone](#4-git-clone)
+- Visual Studio 2022
+- Visual Studio Code
+- Node.js
 
 <br />
 
