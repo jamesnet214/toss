@@ -11,6 +11,16 @@
 - Windows 11
 - Mac OSX
 
+주요 작업환경은 Windows 입니다.
+
+**맥 환경은..**
+- OSX 최신 업데이트
+- Visual Studio Code 설치
+- node.js 설치
+- 아마도 끝...
+
+> Windows 11 작성 후 맥도 만들어보겠습니다.
+
 ## Windows 11 (셋업 순서)
 - Windows 업데이트
 - Google Chrome 설치
