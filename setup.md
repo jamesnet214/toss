@@ -8,18 +8,8 @@
 사실 너무 쓸데없어서 읽을 필요가 있을까 싶기도 한 내용이지만, 그래도 오랫동안 개발을 하고 있는 사람은 과연 어떻게 작업환경을 셋업하는지 궁굼하실 분들을 위해 작성하게 된 글입니다.
 
 ## 운영체제
-- Windows 11
-- Mac OSX
-
-주요 작업환경은 Windows 입니다.
-
-**맥 환경은..**
-- OSX 최신 업데이트
-- Visual Studio Code 설치
-- node.js 설치
-- 아마도 끝...
-
-> Windows 11 작성 후 맥도 만들어보겠습니다.
+- [Windows 11](#windows-11)
+- [Mac OSX](#mac-osx) 준비중..
 
 ## Windows 11 (셋업 순서)
 - Windows 업데이트(#1-windows-업데이트)
