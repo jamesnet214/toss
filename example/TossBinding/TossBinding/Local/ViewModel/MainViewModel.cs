@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows.Input;
 using TossBinding.Local.Foundation;
 using TossBinding.Local.Model;

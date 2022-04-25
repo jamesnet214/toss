@@ -24,14 +24,8 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
-                            <TextBlock Grid.Row="0" 
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       Text="{Binding ContentsTitle}"
-                                       FontFamily="나눔고딕"
-                                       FontWeight="SemiBold"
-                                       FontSize="16"
-                                       Margin="10"/>
+                            <units:TossTitle Grid.Row="0" 
+                                             Text="{Binding ContentsTitle}"/>
                             <units:StockListBox Grid.Row="1"
                                                 ItemsSource="{Binding Stocks}"/>
                         </Grid>
