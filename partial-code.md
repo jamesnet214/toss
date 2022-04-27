@@ -1,4 +1,10 @@
 # Toss 코드조각
+반복 작업을 줄이기 위해 필요한 주요 코드조각 모음입니다.
+
+- [DefaultStyleKeyProperty](#defaultstylekeyproperty)
+- [Template](#template)
+- [Stock 모델](#stock-모델)
+- [주식 종목 데이터 생성](#주식-종목-데이터-생성)
 
 ## DefaultStyleKeyProperty
 Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
@@ -60,8 +66,8 @@ internal class Stock
 }
 ```
 
-## 주식 목록 데이터 생성
-임시 데이터를 생성하는 부분입니다.
+## 주식 종목 데이터 생성
+주식 종목 임시 데이터를 생성하는 부분입니다.
 ```csharp
 List<Stock> stocks = new();
 stocks.Add(new Stock(1, "TSLA", "테슬라", "#F2121E", 1209010, 1279359, false));
