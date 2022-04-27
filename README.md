@@ -37,7 +37,14 @@ internal class Stock
     public double PastValue { get; set; }
     public bool Heart { get; set; }
 
-    public Stock(int _rank, string _code, string _name, string _color, double _liveValue, double _pastValue, bool _heart)
+    public Stock(
+        int _rank, 
+        string _code, 
+        string _name, 
+        string _color, 
+        double _liveValue, 
+        double _pastValue, 
+        bool _heart)
     {
         Rank = _rank;
         Code = _code;
