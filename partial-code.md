@@ -125,7 +125,7 @@ Margin="20"
 <StackPanel Grid.Column="2"
             VerticalAlignment="Top"
             Margin="20">
-    <TextBlock Text="{Binding Name}"
+    <TextBlock Text="테슬라"
                Foreground="#C6C5C9"
                FontFamily="나눔고딕"
                FontWeight="SemiBold"
@@ -134,11 +134,11 @@ Margin="20"
     <StackPanel Grid.Column="2" 
                 VerticalAlignment="Bottom"
                 Orientation="Horizontal">
-        <TextBlock Text="{Binding TodayPrice, Converter={StaticResource PriceFormatConverter}}"
+        <TextBlock Text="1279359"
                    Foreground="#9D9CA2"
                    FontSize="15"/>
         <TextBlock x:Name="realtime" 
-                   Text="{Binding Path=., Converter={StaticResource RealtimeConverter}}"
+                   Text="+5.8%"
                    Foreground="#4c73b4"
                    FontSize="15"
                    Margin="2 0 0 0"/>
