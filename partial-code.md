@@ -116,6 +116,7 @@ Margin="20"
 ## 미국 국기 스타일
 ```xaml
 <Border Grid.Column="1"
+        Width="16" Height="12"
         HorizontalAlignment="Right"
         VerticalAlignment="Bottom"
         UseLayoutRounding="True"
@@ -123,9 +124,9 @@ Margin="20"
         BorderBrush="#151515"
         BorderThickness="1"
         CornerRadius="1"
-        Width="16" Height="12">
+        Margin="0 0 0 6">
     <Border.Background>
-        <ImageBrush ImageSource="/Toss;component/Themes/Images/usa.png"
+        <ImageBrush ImageSource="/Toss;component/Images/usa.png"
                     RenderOptions.BitmapScalingMode="HighQuality"/>
     </Border.Background>
 </Border>
