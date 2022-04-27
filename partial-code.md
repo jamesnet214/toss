@@ -10,7 +10,7 @@
 - [미국 국기 스타일](#미국-국기-)
 - [Rank TextBlock 스타일](#rank-textblock-스타일)
 - [Name TextBlock 스타일](#)
-- [HeartSwitch 템플릿](#heartswitch-템플릿]
+- [HeartSwitch 템플릿](#heartswitch-템플릿)
 
 ## DefaultStyleKeyProperty
 Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
