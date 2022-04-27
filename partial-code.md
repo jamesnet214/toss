@@ -153,7 +153,8 @@ StockListItem 안에 포함된 주식 종목명과 가격, 상승률이 포함�
 </StackPanel>
 ```
 
-## 미국 국기 스타일
+## 우측 하단 작은 국기 스타일
+우측 하단에 Border로 감싸져있는 작은 국기 스타일입니다.
 ```xaml
 <Border Grid.Column="1"
         Width="16" Height="12"
