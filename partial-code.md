@@ -151,13 +151,13 @@ StockListItem 안에 포함된 주식 종목명과 가격, 상승률이 포함�
 <Border Grid.Column="1"
         Width="16" Height="12"
         HorizontalAlignment="Right"
-        VerticalAlignment="Bottom"
+        VerticalAlignment="Center"
         UseLayoutRounding="True"
         SnapsToDevicePixels="True"
         BorderBrush="#151515"
         BorderThickness="1"
         CornerRadius="1"
-        Margin="0 0 0 6">
+        Margin="0 40 0 0">
     <Border.Background>
         <ImageBrush ImageSource="/Toss;component/Images/usa.png"
                     RenderOptions.BitmapScalingMode="HighQuality"/>
