@@ -83,6 +83,12 @@ stocks.Add(new Stock(4, "AMZN", "아마존", "#37404F", 3662201, 3569486, false)
 stocks.Add(new Stock(5, "GTLB", "깃랩", "#3B0E77", 59502, 59545, true));
 ```
 
+- ![#F2121E](https://via.placeholder.com/15/F2121E/000000?text=+) `#F2121E` `테슬라`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015` `마이크로소프트`
+- ![#1589F0](https://via.placeholder.com/15/4B98D3/000000?text=+) `#4B98D3` `트위터`
+- ![#37404F](https://via.placeholder.com/15/37404F/000000?text=+) `#37404F` `아마존`
+- ![#3B0E77](https://via.placeholder.com/15/3B0E77/000000?text=+) `#3B0E77` `깃랩`
+
 ## 주식 종목 이미지
 | TSLA | MSFT | TWTR | AMZN | GTLB |
 |:----:|:----:|:----:|:----:|:----:|
