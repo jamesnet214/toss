@@ -1,6 +1,6 @@
 # WPF 토스 앱
 
-## DefaultStyleKeyProperty
+### DefaultStyleKeyProperty
 ```csharp
 #region DefaultStyleKey
 
@@ -11,7 +11,7 @@ static 컨트롤()
 #endregion
 ```
 
-## ContentControl Template 샘플
+### ContentControl Template 샘플
 ```xaml
 <Style TargetType="{x:Type 컨트롤}">
     <Setter Property="Template">
@@ -24,7 +24,7 @@ static 컨트롤()
 </Style>
 ```
 
-## Stock 모델
+### Stock 모델
 
 ```csharp
 internal class Stock
@@ -55,7 +55,7 @@ internal class Stock
 }
 ```
 
-## 주식 목록 데이터 생성
+### 주식 목록 데이터 생성
 ```csharp
 List<Stock> stocks = new();
 stocks.Add(new Stock(1, "TSLA", "테슬라", "#F2121E", 1209010, 1279359, false));
