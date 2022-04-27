@@ -5,7 +5,7 @@
 - [Template 양식](#template-양식)
 - [Stock 모델](#stock-모델)
 - [주식 종목 데이터 생성](#주식-종목-데이터-생성)
-- [실시간 Top100 스타일 템플릿](#실시간-top100-스타일-)
+- [실시간 Top100 스타일 템플릿](#실시간-top100-스타일-템플릿)
 
 ## DefaultStyleKeyProperty
 Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
