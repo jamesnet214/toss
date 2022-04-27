@@ -1,5 +1,15 @@
 # WPF 토스 앱
 
+## DefaultStyleKeyProperty
+```csharp
+#region DefaultStyleKey
+
+static 컨트롤()
+{
+    DefaultStyleKeyProperty.OverrideMetadata(typeof(컨트롤), new FrameworkPropertyMetadata(typeof(컨트롤)));
+}
+#endregion
+```
 
 ## ContentControl Template 샘플
 ```xaml
