@@ -1,4 +1,4 @@
-# WPF 토스 앱
+# Toss 코드조각
 
 ## DefaultStyleKeyProperty
 Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
