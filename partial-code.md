@@ -8,6 +8,7 @@
 - [실시간 Top100 템플릿](#실시간-top100-템플릿)
 - [Rank TextBlock 스타일](#rank-textblock-스타일)
 - 이미지
+- [미국 국기 스타일](#미국-국기-)
 
 ## DefaultStyleKeyProperty
 Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
@@ -110,4 +111,22 @@ Foreground="#2464C6"
 FontWeight="Bold"
 FontSize="18"
 Margin="20"
+```
+
+## 미국 국기 스타일
+```xaml
+<Border Grid.Column="1"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Bottom"
+        UseLayoutRounding="True"
+        SnapsToDevicePixels="True"
+        BorderBrush="#151515"
+        BorderThickness="1"
+        CornerRadius="1"
+        Width="16" Height="12">
+    <Border.Background>
+        <ImageBrush ImageSource="/TossBinding;component/Themes/Images/Nation/usa.png"
+                    RenderOptions.BitmapScalingMode="HighQuality"/>
+    </Border.Background>
+</Border>
 ```
