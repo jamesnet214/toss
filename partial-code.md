@@ -120,7 +120,7 @@ Margin="20"
 ```
 
 ## Name TextBlock 스타일
-
+StockListItem 안에 포함된 주식 종목명과 가격, 상승률이 포함된 스타일입니다.
 ```xaml
 <StackPanel Grid.Column="2"
             VerticalAlignment="Top"
