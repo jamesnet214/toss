@@ -125,7 +125,7 @@ Margin="20"
         CornerRadius="1"
         Width="16" Height="12">
     <Border.Background>
-        <ImageBrush ImageSource="/TossBinding;component/Themes/Images/Nation/usa.png"
+        <ImageBrush ImageSource="/Toss;component/Themes/Images/usa.png"
                     RenderOptions.BitmapScalingMode="HighQuality"/>
     </Border.Background>
 </Border>
