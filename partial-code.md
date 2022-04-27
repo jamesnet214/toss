@@ -84,6 +84,8 @@ stocks.Add(new Stock(5, "GTLB", "깃랩", "#3B0E77", 59502, 59545, true));
     <Setter Property="BorderBrush" Value="#FFFFFF"/>
     <Setter Property="BorderThickness" Value="0 0 0 1"/>
     <Setter Property="Padding" Value="20"/>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="FontWeight" Value="SemiBold"/>
     <Setter Property="HorizontalContentAlignment" Value="Center"/>
     <Setter Property="Template">
         <Setter.Value>
