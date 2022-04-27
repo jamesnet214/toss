@@ -1,6 +1,19 @@
 # WPF 토스 앱
 
 
+## 기본 ContentControl 기반 Tempalte
+```
+<Style TargetType="{x:Type 컨트롤}">
+    <Setter Property="Template">
+        <Setter.Value>
+            <ControlTemplate TargetType="{x:Type 컨트롤}">
+                <!-- 내용 -->
+            </ControlTemplate>
+        </Setter.Value>
+    </Setter>
+</Style>
+```
+
 ## Stock 모델
 
 ```csharp
