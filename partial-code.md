@@ -82,6 +82,11 @@ stocks.Add(new Stock(4, "AMZN", "아마존", "#37404F", 3662201, 3569486, false)
 stocks.Add(new Stock(5, "GTLB", "깃랩", "#3B0E77", 59502, 59545, true));
 ```
 
+## 주식 종목 이미지
+| TSLA | MSFT | TWTR | AMZN | GTLB |
+|:----:|:----:|:----:|:----:|:----:|
+| ![tsla](https://user-images.githubusercontent.com/52397976/165555756-6f739738-7df8-449a-9000-c34be9fd5447.png) | ![msft](https://user-images.githubusercontent.com/52397976/165555859-33017fd4-69b3-4979-9431-636c181c4a2f.png) | ![twtr](https://user-images.githubusercontent.com/52397976/165555907-7ca0074f-7e52-436f-9aa4-947af04c64c3.png) | ![amzn](https://user-images.githubusercontent.com/52397976/165555947-a6fa7ba0-23c2-46b9-8b6a-5cf018ece0ca.png) | ![gtlb](https://user-images.githubusercontent.com/52397976/165555984-e65c9b83-4763-4927-93f9-42429ced1dcb.png) |
+
 ## 실시간 Top100 템플릿
 ```xaml
 <Style TargetType="{x:Type 컨트롤}">
@@ -112,6 +117,33 @@ Foreground="#2464C6"
 FontWeight="Bold"
 FontSize="18"
 Margin="20"
+```
+
+## Name TextBlock 스타일
+
+```xaml
+<StackPanel Grid.Column="2"
+            VerticalAlignment="Top"
+            Margin="20">
+    <TextBlock Text="{Binding Name}"
+               Foreground="#C6C5C9"
+               FontFamily="나눔고딕"
+               FontWeight="SemiBold"
+               FontSize="18"
+               Margin="0 0 0 4"/>
+    <StackPanel Grid.Column="2" 
+                VerticalAlignment="Bottom"
+                Orientation="Horizontal">
+        <TextBlock Text="{Binding TodayPrice, Converter={StaticResource PriceFormatConverter}}"
+                   Foreground="#9D9CA2"
+                   FontSize="15"/>
+        <TextBlock x:Name="realtime" 
+                   Text="{Binding Path=., Converter={StaticResource RealtimeConverter}}"
+                   Foreground="#4c73b4"
+                   FontSize="15"
+                   Margin="2 0 0 0"/>
+    </StackPanel>
+</StackPanel>
 ```
 
 ## 미국 국기 스타일
