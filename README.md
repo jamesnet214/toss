@@ -6,6 +6,13 @@
 ```csharp
 internal class Stock
 {
+    // 순위 1
+    // 코드 TSLA
+    // 이름 테슬라
+    // 가격 (오늘) 1279359
+    // 가격 (어제) 1269359
+    // 하트 true/false
+
     public int Rank { get; set; }
     public string Code { get; set; }
     public string Name { get; set; }
