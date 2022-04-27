@@ -2,7 +2,7 @@
 반복 작업을 줄이기 위해 필요한 주요 코드조각 모음입니다.
 
 - [DefaultStyleKeyProperty](#defaultstylekeyproperty)
-- [기본 Template](#template)
+- [Template 양식](#template-양식)
 - [Stock 모델](#stock-모델)
 - [주식 종목 데이터 생성](#주식-종목-데이터-생성)
 
@@ -18,7 +18,7 @@ static 컨트롤()
 #endregion
 ```
 
-## 기본 Template
+## Template 양식
 ContentControl 기반 컨트롤의 기본 스타일 양식입니다.
 ```xaml
 <Style TargetType="{x:Type 컨트롤}">
