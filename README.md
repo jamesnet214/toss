@@ -1,7 +1,7 @@
 # WPF 토스 앱
 
 
-## 기본 ContentControl 기반 Tempalte
+## ContentControl Tempalte
 ```
 <Style TargetType="{x:Type 컨트롤}">
     <Setter Property="Template">
