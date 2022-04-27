@@ -106,8 +106,10 @@ stocks.Add(new Stock(5, "GTLB", "깃랩", "#3B0E77", 59502, 59545, true));
     <Setter Property="Template">
         <Setter.Value>
             <ControlTemplate TargetType="{x:Type 컨트롤}">
-                <Border>
-                    <ContentPresenter/>
+                <Border BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        Padding="20">
+                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
                 </Border>
             </ControlTemplate>
         </Setter.Value>
