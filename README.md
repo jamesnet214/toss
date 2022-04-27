@@ -3,7 +3,7 @@
 
 ## Stock 모델
 
-```cshgarp
+```csharp
 internal class Stock
 {
     public int Rank { get; set; }
