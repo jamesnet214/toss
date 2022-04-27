@@ -1,6 +1,7 @@
 # WPF 토스 앱
 
-### DefaultStyleKeyProperty
+## DefaultStyleKeyProperty
+Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
 ```csharp
 #region DefaultStyleKey
 
@@ -11,7 +12,8 @@ static 컨트롤()
 #endregion
 ```
 
-### ContentControl Template 샘플
+## Template
+ContentControl 기반 컨트롤의 기본 스타일 양식입니다.
 ```xaml
 <Style TargetType="{x:Type 컨트롤}">
     <Setter Property="Template">
@@ -24,7 +26,8 @@ static 컨트롤()
 </Style>
 ```
 
-### Stock 모델
+## Stock 모델
+토스 주식 목록 데이터 모델 및 생성자 구현 부분입니다.
 
 ```csharp
 internal class Stock
@@ -57,7 +60,8 @@ internal class Stock
 }
 ```
 
-### 주식 목록 데이터 생성
+## 주식 목록 데이터 생성
+임시 데이터를 생성하는 부분입니다.
 ```csharp
 List<Stock> stocks = new();
 stocks.Add(new Stock(1, "TSLA", "테슬라", "#F2121E", 1209010, 1279359, false));
