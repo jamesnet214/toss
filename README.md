@@ -1,8 +1,8 @@
 # WPF 토스 앱
 
 
-## ContentControl Tempalte
-```
+## ContentControl Template 샘플
+```xaml
 <Style TargetType="{x:Type 컨트롤}">
     <Setter Property="Template">
         <Setter.Value>
