@@ -10,6 +10,7 @@
 - [미국 국기 스타일](#미국-국기-)
 - [Rank TextBlock 스타일](#rank-textblock-스타일)
 - [Name TextBlock 스타일](#)
+- [HeartSwitch 템플릿](#heartswitch-템플릿]
 
 ## DefaultStyleKeyProperty
 Themes 폴더에 포함된 리소스를 연결하기 위한 구문입니다.
@@ -163,4 +164,32 @@ StockListItem 안에 포함된 주식 종목명과 가격, 상승률이 포함�
                     RenderOptions.BitmapScalingMode="HighQuality"/>
     </Border.Background>
 </Border>
+```
+
+## HeartSwitch 템플릿
+```xaml
+<Geometry x:Key="HeartGeometry">M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z</Geometry>
+
+<Style TargetType="{x:Type 컨트롤}">
+    <Setter Property="Cursor" Value="Hand"/>
+    <Setter Property="Background" Value="#53535D"/>
+    <Setter Property="Template">
+        <Setter.Value>
+            <ControlTemplate TargetType="{x:Type 컨트롤}">
+                <Viewbox Grid.Column="3" 
+                         VerticalAlignment="Center"
+                         Width="28" Height="28"
+                         Margin="20">
+                    <Path Data="{StaticResource HeartGeometry}"
+                          Fill="{TemplateBinding Background}"/>
+                </Viewbox>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsChecked" Value="True">
+                        <Setter Property="Background" Value="#EC4451"/>
+                    </Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+        </Setter.Value>
+    </Setter>    
+</Style>
 ```
