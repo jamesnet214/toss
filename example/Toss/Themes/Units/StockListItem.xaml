@@ -1,0 +1,109 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:views="clr-namespace:Toss.UI.Views"
+                    xmlns:units="clr-namespace:Toss.UI.Units"
+                    xmlns:cnvts="clr-namespace:Toss.Local.Converter">
+
+    <cnvts:CodeToBrandConverter x:Key="CodeToBrandConverter"/>
+    <cnvts:ValueFormatConverter x:Key="ValueFormatConverter"/>
+    <cnvts:RealtimeValueConverter x:Key="RealtimeValueConverter"/>
+    <cnvts:PlusMinusConverter x:Key="PlusMinusConverter"/>
+
+    <Style TargetType="{x:Type units:StockListItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type units:StockListItem}">
+                    <Border>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- 순위 -->
+                            <TextBlock Grid.Column="0"
+                                       Text="{Binding Rank}"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       Foreground="#2464C6"
+                                       FontWeight="Bold"
+                                       FontSize="18"
+                                       Margin="20"/>
+
+                            <!-- 로고 배경 (동그라미) -->
+                            <Ellipse Grid.Column="1"
+                                     Width="48" Height="48"
+                                     Fill="{Binding Color}"/>
+
+                            <!-- 로고 이미지 (컨버터 사용) -->
+                            <Image Grid.Column="1"
+                                   Width="20" Height="20"
+                                   Source="{Binding Code, Converter={StaticResource CodeToBrandConverter}}"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                            
+                            <!-- 작은 국가 이미지 -->
+                            <Border Grid.Column="1"
+                                    Width="16" Height="12"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Center"
+                                    UseLayoutRounding="True"
+                                    SnapsToDevicePixels="True"
+                                    BorderBrush="#151515"
+                                    BorderThickness="1"
+                                    CornerRadius="1"
+                                    Margin="0 40 0 0">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/Toss;component/Images/usa.png"
+                                                RenderOptions.BitmapScalingMode="HighQuality"/>
+                                </Border.Background>
+                            </Border>
+
+                            <StackPanel Grid.Column="2"
+                                        VerticalAlignment="Top"
+                                        Margin="20">
+                                
+                                <!-- 종목 이름 (테슬라, 마이크로소프트) -->
+                                <TextBlock Text="{Binding Name}"
+                                           Foreground="#C6C5C9"
+                                           FontFamily="나눔고딕"
+                                           FontWeight="SemiBold"
+                                           FontSize="18"
+                                           Margin="0 0 0 4"/>
+                                
+                                <StackPanel Grid.Column="2" 
+                                            VerticalAlignment="Bottom"
+                                            Orientation="Horizontal">
+                                    
+                                    <!-- 현재 가격 (3자리 쉼표, 원 표시) -->
+                                    <TextBlock Text="{Binding LiveValue, Converter={StaticResource ValueFormatConverter}}"
+                                               Foreground="#9D9CA2"
+                                               FontSize="15"/>
+                                    
+                                    <!-- 전일대비 Rate% (어제보다 올랐는지 내렸는지, 소숫점 1자리까지, +/- 표시) -->
+                                    <TextBlock x:Name="rate"
+                                               Text="{Binding Path=DataContext, RelativeSource={RelativeSource Self}, Converter={StaticResource RealtimeValueConverter}}"
+                                               Foreground="#CA5A66"
+                                               FontSize="15"
+                                               Margin="2 0 0 0"/>
+                                </StackPanel>
+                            </StackPanel>
+                            
+                            <!-- 하트 -->
+                            <units:HeartSwitch Grid.Column="3"
+                                               IsChecked="{Binding Heart}"
+                                               Command="{Binding Path=DataContext.HeartCommand, RelativeSource={RelativeSource AncestorType=views:MainWindow}}"
+                                               CommandParameter="{Binding Path=DataContext, RelativeSource={RelativeSource Self}}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <DataTrigger Binding="{Binding Path=., Converter={StaticResource PlusMinusConverter}}" Value="False">
+                            <Setter TargetName="rate" Property="Foreground" Value="#4C73B4"/>
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

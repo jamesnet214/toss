@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Properties\toss.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\amzn.png" />
+    <None Remove="Images\gtlb.png" />
+    <None Remove="Images\msft.png" />
+    <None Remove="Images\tsla.png" />
+    <None Remove="Images\twtr.png" />
+    <None Remove="Images\usa.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\toss.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\amzn.png" />
+    <Resource Include="Images\gtlb.png" />
+    <Resource Include="Images\msft.png" />
+    <Resource Include="Images\tsla.png" />
+    <Resource Include="Images\twtr.png" />
+    <Resource Include="Images\usa.png" />
+  </ItemGroup>
+
+</Project>
