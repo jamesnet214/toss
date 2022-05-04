@@ -1,8 +1,5 @@
-# Toss WPF
-
-| Star | License | Activity |
-|:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/toss/stargazers"><img src="https://img.shields.io/github/stars/devncore/toss" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/toss" alt="License"> | <a href="https://github.com/devncore/toss/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/toss" alt="Commits-per-month"></a> |
+<h1 align="center"> Toss WPF</h1> <br>
+<p align="center"><img src="Images\logo.png", width="400"></p>
 
 ## 목차
 - [소개](#소개)
@@ -13,6 +10,10 @@
 
 ## 소개
 >토스 모바일 앱을 WPF 구조로 구현한 애플리케이션 입니다. 
+
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/toss/stargazers"><img src="https://img.shields.io/github/stars/devncore/toss" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/toss" alt="License"> | <a href="https://github.com/devncore/toss/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/toss" alt="Commits-per-month"></a> |
 
 
 ## 개발 환경
