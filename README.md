@@ -1,5 +1,29 @@
-<h1 align="center"> Toss WPF</h1> <br>
-<p align="center"><img src="Images\logo.png", width="400"></p>
+<table>
+  <tr>
+      <td align="center">
+        <b>DevNcore</b><br/>Organization
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <a href="https://devncore.org">
+            <img src="https://user-images.githubusercontent.com/52397976/166920568-b4327d2d-7bbc-499a-99a5-ad8ef49869f5.png" width="200"/>
+          </a>
+      </td>
+  </tr>
+  <tr>
+      <td align="center">
+        <a href="https://devncore.org">devncore.org</a> Apps
+      </td>
+  </tr>
+  <tr>
+      <td align="center">
+        WPF
+      </td>
+  </tr>
+</table>
+
+
 
 ## 목차
 - [소개](#소개)
