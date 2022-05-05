@@ -1,5 +1,5 @@
 # Toss
-토스 앱
+한국의 대표 금융 토스 프로그램을 WPF 기반으로 구현한 애플리케이션입니다.
 <table>
   <tr>
       <td align="center">
