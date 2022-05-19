@@ -19,7 +19,9 @@ namespace Toss
         {
             // MainWindow 인스턴스 생성
             MainWindow main = new();
-            main.ShowDialog();
+            MainWindow = main;
+            main.Show();
+
         }
     }
 }
