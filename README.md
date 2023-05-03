@@ -1,8 +1,5 @@
-## Toss Sample App
 
-TBD...
-
-### Repository info
+# Repository info
 
 | Star | License | Activity |
 |:----:|:-------:|:--------:|
