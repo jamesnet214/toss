@@ -1,31 +1,6 @@
-## Contributors
-데브엔코어는 닷넷 기반의 다양한 애플리케이션과 기술을 공유하고 있습니다.
+## Toss Sample App
 
-### Organization info
-<table>
-  <tr>
-      <td align="center">
-        <b>DevNcore</b><br/>Organization
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <a href="https://devncore.org">
-            <img src="https://user-images.githubusercontent.com/52397976/166920568-b4327d2d-7bbc-499a-99a5-ad8ef49869f5.png" width="200"/>
-          </a>
-      </td>
-  </tr>
-  <tr>
-      <td align="center">
-        <a href="https://devncore.org">devncore.org</a> Apps
-      </td>
-  </tr>
-  <tr>
-      <td align="center">
-        WPF
-      </td>
-  </tr>
-</table>
+TBD...
 
 ### Repository info
 
