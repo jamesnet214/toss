@@ -1,18 +1,13 @@
-
-# Repository info
-
-| Star | License | Activity |
-|:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/toss/stargazers"><img src="https://img.shields.io/github/stars/devncore/toss" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/toss" alt="License"> | <a href="https://github.com/devncore/toss/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/toss" alt="Commits-per-month"></a> |
-
-<br/>
-
 # Toss WPF
 토스는 뱅크/증권 서비스를 제공하는 한국의 대표 금융 앱입니다.  
 또한 국내에서 높은 보급률을 보유하고 있으며 UX 측면에서도 누구나 쉽게 사용할 수 있도록 직관적이고 센스있는 구조가 특징입니다. 
 
 개발적인 측면에서 봐도 효율적이고 감각적인 컨셉과 사상이 돋보이는 앱입니다.  
 그렇기에 WPF로 구현하기에 아주 좋은 구조와 예시가 될 것입니다.
+
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/toss/stargazers"><img src="https://img.shields.io/github/stars/devncore/toss" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/toss" alt="License"> | <a href="https://github.com/devncore/toss/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/toss" alt="Commits-per-month"></a> |
 
 ### 내용
 - [개발 환경](#개발-환경)
